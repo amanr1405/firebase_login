@@ -8,6 +8,7 @@ body{
     font-family: "Pacifico", cursive;
     font-weight: 400;
     font-style: normal;    
+    color: #fff;
 }
 
 .container{
@@ -16,10 +17,17 @@ body{
     background-color: #252627;
     background: linear-gradient(to right,#db28d8,#aca141);
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 fieldset{
     display: flex;
-    justify-content: center;
-    
+    gap: 10px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+legend{
+    font-size: 2rem;
 }
